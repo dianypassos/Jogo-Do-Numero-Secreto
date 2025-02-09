@@ -38,7 +38,7 @@ function verificarChute() {
 
 function gerarNumeroAleatorio() {
     let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
-    let quantidadeDeElementosNaLista =listaDeNumerosSorteados.length;
+    let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
 
     if(quantidadeDeElementosNaLista == numeroLimite) {
         listaDeNumerosSorteados = [];
